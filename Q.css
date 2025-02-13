@@ -1,0 +1,27 @@
+table,th,td
+{ border:1px solid black;
+border-collapse:collapse;
+
+}
+td {
+    padding:50px;
+}
+table{
+    margin:100px 300px;
+    
+}
+table#table01 td:nth-child(even)
+{ 
+    background-color:hwb(256 40% 1%);
+}
+table#table01 tr:nth-child(even)
+{ 
+    background-color:hwb(256 40% 1%);
+}
+table#table01 th:nth-child(even)
+{ 
+    background-color:hwb(256 40% 1%);
+}
+
+
+
